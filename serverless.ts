@@ -1,7 +1,7 @@
 import type { AWS } from '@serverless/typescript';
 
 const serverlessConfiguration: AWS = {
-  service: 'nitroxify-api',
+  service: 'nestsls-api',
   plugins: [
     'serverless-plugin-typescript', // This plugin is required to build the TypeScript project
     'serverless-plugin-optimize', // This plugin is required to optimize the Lambda functions

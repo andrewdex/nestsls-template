@@ -1,5 +1,5 @@
 {
-  "name": "nitroxify",
+  "name": "nestsls",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -12,7 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "start:offline": "sls offline start --skipCacheInvalidation --httpPort 3000",
+    "start:offline": "sls offline start",
     "deploy-lambda": "sls deploy --aws-profile yourawsprofile",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
