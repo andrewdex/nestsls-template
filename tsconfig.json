@@ -10,7 +10,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true,
+    "incremental": false, // this needs to be false in order to work with sls offline
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false,

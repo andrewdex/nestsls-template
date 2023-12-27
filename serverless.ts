@@ -29,7 +29,6 @@ const serverlessConfiguration: AWS = {
           http: {
             method: 'ANY',
             path: '/{proxy+}', // this will catch any route that wasn't defined previously, like `/api/v1/users`
-            private: true, // this will enable CORS for the '/api/*' routes
             cors: true,
           },
         },

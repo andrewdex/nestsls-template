@@ -33,3 +33,27 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Serverless
+.serverless/
+/serverless.yml
+/serverless.env.yml
+/serverless.env.json
+/serverless.env.js
+/serverless.env.ts
+/serverless.env.yaml
+/serverless.env.toml
+/serverless.env.properties
+/serverless.env.ini
+/serverless.env.env
+/serverless.env.env.local
+/serverless.env.env.development
+/serverless.env.env.production
+/serverless.env.env.staging
+/serverless.env.env.test
+/serverless.env.env.local.js
+/serverless.env.env.development.js
+/serverless.env.env.production.js
+/serverless.env.env.staging.js
+/serverless.env.env.test.js
+.build
