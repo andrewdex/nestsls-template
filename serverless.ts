@@ -4,7 +4,6 @@ const serverlessConfiguration: AWS = {
   service: 'nestsls-api',
   plugins: [
     'serverless-plugin-typescript', // This plugin is required to build the TypeScript project
-    'serverless-plugin-optimize', // This plugin is required to optimize the Lambda functions
     'serverless-offline', // This plugin is required to run the API locally
     'serverless-plugin-warmup', // This plugin is required to keep the Lambda functions warm
     'serverless-dotenv-plugin', // This plugin is required to load the environment variables

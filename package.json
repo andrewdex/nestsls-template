@@ -49,7 +49,6 @@
     "serverless-add-api-key": "^4.2.1",
     "serverless-dotenv-plugin": "^6.0.0",
     "serverless-offline": "^13.3.2",
-    "serverless-plugin-optimize": "^4.2.1-rc.1",
     "serverless-plugin-typescript": "^2.1.5",
     "serverless-plugin-warmup": "^8.3.0",
     "source-map-support": "^0.5.21",
