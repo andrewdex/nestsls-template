@@ -1,4 +1,4 @@
-## NestJS Serverless Rest API with AWS Lambda Template
+## NestJS + Serverless Rest API with AWS Lambda - Template
 
 ### Description
 
