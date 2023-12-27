@@ -1,3 +1,5 @@
+## NestJS Serverless Rest API with AWS Lambda Template
+
 ## Description
 
 This is a sample project template to demonstrate how to use NestJS with Serverless Framework and Create a Rest API with using AWS Lambda. This project is using NestJS with Serverless Framework and AWS Lambda.
