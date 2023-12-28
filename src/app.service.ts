@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Product } from './app.types';
+import { Post } from './app.types';
 
 @Injectable()
 export class AppService {
@@ -13,23 +13,8 @@ export class AppService {
     };
   }
 
-  getProducts(): Product[] {
-    return [
-      {
-        productName: 'Product 32%',
-        productDescription: '32% Product',
-        productPrice: 10,
-      },
-      {
-        productName: 'Product 36%',
-        productDescription: '36% Product',
-        productPrice: 10,
-      },
-      {
-        productName: 'Product 40%',
-        productDescription: '40% Product',
-        productPrice: 10,
-      },
-    ];
+  async getPosts(): Promise<Post[]> {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    return await response.json();
   }
 }

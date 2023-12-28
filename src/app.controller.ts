@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-import { Product } from './app.types';
+import { Post } from './app.types';
 
 @Controller()
 export class AppController {
@@ -14,8 +14,8 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/products')
-  getProducts(): Product[] {
-    return this.appService.getProducts();
+  @Get('/posts')
+  getPosts(): Promise<Post[]> {
+    return this.appService.getPosts();
   }
 }
