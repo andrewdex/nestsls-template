@@ -30,11 +30,11 @@ $ npm run start:offline
 $ http://localhost:3000/dev/api
 ```
 
-### Access the sample products API Route
+### Access the sample posts API Route
 
 ```bash
 # development
-$ http://localhost:3000/dev/api/products
+$ http://localhost:3000/dev/api/posts
 ```
 
 ### Deploy the app with SLS
